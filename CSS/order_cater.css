@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url(https://ronmayhewphotography.com/wp-content/uploads/2022/05/Raspberriea-and-Blackberries-a-still-life--1921x1100.jpg) center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: cornflowerblue;
+    height: 510px;
+    width: 450px;
+    align-items: center;
+    margin-left: 50px;
+    border-radius: 10px;
+    
+}
+input{
+    height: 35px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}
+form{
+    text-align: center;
+    align-items: center;
+}
+select{
+    height: 35px;
+    width: 400px;
+    border-radius: 5px;
+
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+h1{
+    text-align: center;
+    
+}

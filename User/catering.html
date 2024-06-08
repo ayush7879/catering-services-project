@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cards</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+
+<style type="text/css">
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        font-family: arial;
+    }
+
+    .main {
+
+        margin: 2%;
+    }
+
+    .card {
+        width: 20%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px;
+        margin: 2%;
+        margin-top: 40px;
+    }
+
+    .image img {
+        width: 100%;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+
+
+
+    }
+
+    .title {
+
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .des {
+        padding: 3px;
+        text-align: center;
+
+        padding-top: 10px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    button {
+        margin-top: 40px;
+        margin-bottom: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+         }
+         a{
+            text-decoration: none;
+        color: black;
+   
+         }
+
+    button:hover {
+        background-color: black;
+        color: white;
+        transition: .5s;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <script>
+        $(function () {
+            $("#profile").load("my_profile.html");
+            //   $("#footer").load("footer.html"); 
+        });
+    </script>
+    <div id="profile"></div>
+    <h2>Our Caterings</h2>
+    <h3>For any accassion our services are here. Order Now...</h3>
+    <div class="main">
+
+        <!--cards -->
+
+
+        <div class="card">
+
+            <div class="image">
+                <img src="https://content.jdmagicbox.com/comp/karad/v2/9999p2164.2164.191209155528.t8v2/catalogue/khimatmata-caterers-karad-karad-caterers-tjk6lmpzj3.jpg?clr=">
+            </div>
+            <div class="title">
+                <h1>
+                    Maharashtrian</h1>
+            </div>
+            <div class="des">
+                <p>Dilicious Maharashtrian Catering Ever</p>
+                <button><a href="order_cater.html">Order</a></button>
+            
+            </div>
+        </div>
+        <!--cards -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="https://content.jdmagicbox.com/comp/mumbai/g1/pwfl1507799231h3j2g1/catalogue/south-indian-food-catering-services-food-distributor-idli-vada-dosa-sambar-etc-mumbai-d1zkh.jpg">
+            </div>
+            <div class="title">
+                <h1>
+                    South Indian</h1>
+            </div>
+            <div class="des">
+                <p>Delicious South Indian Catering Ever</p>
+                <button><a href="order_cater.html">Order</a></button>
+            
+            </div>
+        </div>
+        <!--cards -->
+        <div class="card">
+
+            <div class="image">
+                <img src="https://cdn-almjc.nitrocdn.com/aZYyrACOqPKwqacflNAAVPArFRYGkpZe/assets/static/optimized/rev-76f8472/wp-content/uploads/2020/02/46d82e1a0b0100936591de3958f3408d.Chinese-food.jpg">
+            </div>
+            <div class="title">
+                <h1>
+                    Chinese</h1>
+            </div>
+            <div class="des">
+                <p>Dilicious, Tasty Chinese Catering Ever</p>
+                <button><a href="order_cater.html">Order</a></button>
+            
+            </div>
+        </div>
+
+
+
+
+        <div class="card">
+
+            <div class="image">
+                <img src="https://qph.cf2.quoracdn.net/main-qimg-ccf9c62d50d0bc427e65fb0d6b16cbbe-lq">
+            </div>
+            <div class="title">
+                <h1>
+                    Panjabi</h1>
+            </div>
+            <div class="des">
+                <p>Dilicious, Tasty Panjabi Catering Ever</p>
+                <button><a href="order_cater.html">Order</a></button>
+            </div>
+        </div>
+    
+    
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="/CSS/view_products.css">
+
+   <!-- custom js file link  -->
+   <script src="/JS/view_products.js" defer></script>
+   <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+
+</head>
+<body>
+   <script> 
+      $(function(){
+        $("#profile").load("my_profile.html"); 
+      //   $("#footer").load("footer.html"); 
+      });
+      </script>
+<div id="profile"></div>
+<div class="container">
+
+   <h3 class="title"> Food Items</h3>
+
+   <div class="products-container">
+
+      <div class="product" data-name="p-1">
+         <img src="https://www.funfoodfrolic.com/wp-content/uploads/2020/11/Chicken-Chettinad-Thumbnail.jpg" alt="">
+         <h3>Chicken</h3>
+         <div class="price">₹200</div>
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src="https://theyummydelights.com/wp-content/uploads/2018/07/dhaba-style-paneer-masala-recipe.jpg" alt="">
+         <h3>Paneer</h3>
+         <div class="price">₹150</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="https://www.mygingergarlickitchen.com/wp-content/rich-markup-images/1x1/1x1-restaurant-style-tadka-dal-recipe-how-to-make-dal-tadka.jpg" alt="">
+         <h3>Dal Tadka</h3>
+         <div class="price">₹130</div>
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="https://spicecravings.com/wp-content/uploads/2021/01/Pav-Bhaji-Featured-1.jpg" alt="">
+         <h3>Misal</h3>
+         <div class="price">₹100</div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="https://bangaloremirror.indiatimes.com/thumb/msid-78596343,width-1200,height-900,resizemode-4/.jpg" alt="">
+         <h3>Idli</h3>
+         <div class="price">₹120</div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="https://static.toiimg.com/photo/94536386.cms" alt="">
+         <h3>Fish</h3>
+         <div class="price">₹200</div>
+      </div>
+      <div class="product" data-name="p-7">
+         <img src="https://greenletes.com/wp-content/uploads/2018/05/orange-juice.png" alt="">
+         <h3>Orange Juice</h3>
+         <div class="price">₹50</div>
+      </div>
+      <div class="product" data-name="p-8">
+         <img src="https://curiousflavors.com/wp-content/uploads/2022/07/Untitled-design-78-2.jpg" alt="">
+         <h3>Watermelon Juice</h3>
+         <div class="price">₹60</div>
+      </div>
+
+      <div class="product" data-name="p-9">
+         <img src="https://images.immediate.co.uk/production/volatile/sites/30/2023/03/Coriander-juice-b2b9436.jpg?quality=90&resize=768,574" alt="">
+         <h3>Guava Juice</h3>
+         <div class="price">₹40</div>
+      </div>
+
+      <div class="product" data-name="p-10">
+         <img src="https://3.bp.blogspot.com/-8wzPG_eLN5M/V8YNEJdQuhI/AAAAAAAAgFs/BABRGJLWFkIA5wPpAUjJlchwcQ6Ybk3tgCLcB/s1600/milk%2Btoffee.jpg" alt="">
+         <h3>Coconut Chikki</h3>
+         <div class="price">₹70</div>
+      </div>
+
+      <div class="product" data-name="p-11">
+         <img src="https://media-cdn.tripadvisor.com/media/photo-s/1b/f0/13/6f/img-20200830-135117-911.jpg" alt="">
+         <h3>Pestri</h3>
+         <div class="price">₹30</div>
+      </div>
+
+      <div class="product" data-name="p-12">
+         <img src="https://www.funfoodfrolic.com/wp-content/uploads/2020/07/Gulab-Jamun-Thumbnail.jpg" alt="">
+         <h3>Gulabjamun</h3>
+         <div class="price">₹90</div>
+      </div>
+
+      <div class="product" data-name="p-13">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmL404LtqxVtE_NBcEdz7P0anJ_RLdMDXP0qKPdYg34M2LIOwWSPIolJyWMELSo0JyIPo&usqp=CAU" alt="">
+         <h3>Ice Cream</h3>
+         <div class="price">₹50</div>
+      </div>
+
+      <div class="product" data-name="p-14">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIDLzntz9LobB4RUnAGeHS06VUX2e5j2pdqhwBmu3FiMfldLNrp6SK6mqbO1Ov-yOja1U&usqp=CAU" alt="">
+         <h3>Biryani</h3>
+         <div class="price">₹150</div>
+      </div>
+
+      <div class="product" data-name="p-15">
+         <img src="https://www.indianfoodforever.com/iffwd/wp-content/uploads/2019/10/aloo-bhaji.jpg" alt="">
+         <h3>Puri Bhaji</h3>
+         <div class="price">₹100</div>
+      </div>
+
+
+   </div>
+
+   
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="https://www.funfoodfrolic.com/wp-content/uploads/2020/11/Chicken-Chettinad-Thumbnail.jpg" alt="">
+      <h3>Chicken</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹200</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Order</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="https://theyummydelights.com/wp-content/uploads/2018/07/dhaba-style-paneer-masala-recipe.jpg" alt="">
+      <h3>Paneer</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹150</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Order</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="https://www.mygingergarlickitchen.com/wp-content/rich-markup-images/1x1/1x1-restaurant-style-tadka-dal-recipe-how-to-make-dal-tadka.jpg" alt="">
+      <h3>Dal Tadaka</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹130</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Order</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="https://spicecravings.com/wp-content/uploads/2021/01/Pav-Bhaji-Featured-1.jpg" alt="">
+      <h3>Misal</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹100</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Order</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="https://bangaloremirror.indiatimes.com/thumb/msid-78596343,width-1200,height-900,resizemode-4/.jpg" alt="">
+      <h3>Idli</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹150</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Order</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="https://static.toiimg.com/photo/94536386.cms" alt="">
+      <h3>Fish</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹200</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Order</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-7">
+      <i class="fas fa-times"></i>
+      <img src="https://greenletes.com/wp-content/uploads/2018/05/orange-juice.png" alt="">
+      <h3>Orange Juice</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹50</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Order</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-8">
+      <i class="fas fa-times"></i>
+      <img src="https://curiousflavors.com/wp-content/uploads/2022/07/Untitled-design-78-2.jpg" alt="">
+      <h3>Watermelon Juice</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹60</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Order</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-9">
+      <i class="fas fa-times"></i>
+      <img src="https://images.immediate.co.uk/production/volatile/sites/30/2023/03/Coriander-juice-b2b9436.jpg?quality=90&resize=768,574" alt="">
+      <h3>Guava Juice</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹40</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Order</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-10">
+      <i class="fas fa-times"></i>
+      <img src="https://3.bp.blogspot.com/-8wzPG_eLN5M/V8YNEJdQuhI/AAAAAAAAgFs/BABRGJLWFkIA5wPpAUjJlchwcQ6Ybk3tgCLcB/s1600/milk%2Btoffee.jpg" alt="">
+      <h3>Coconut Chikki</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹70</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Oder</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-11">
+      <i class="fas fa-times"></i>
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/1b/f0/13/6f/img-20200830-135117-911.jpg" alt="">
+      <h3>Pestri</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹30</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Order</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-12">
+      <i class="fas fa-times"></i>
+      <img src="https://www.funfoodfrolic.com/wp-content/uploads/2020/07/Gulab-Jamun-Thumbnail.jpg" alt="">
+      <h3>Gulabjamun</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹90</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Order</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-13">
+      <i class="fas fa-times"></i>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmL404LtqxVtE_NBcEdz7P0anJ_RLdMDXP0qKPdYg34M2LIOwWSPIolJyWMELSo0JyIPo&usqp=CAU" alt="">
+      <h3>Ice Cream</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹50</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Order</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-14">
+      <i class="fas fa-times"></i>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIDLzntz9LobB4RUnAGeHS06VUX2e5j2pdqhwBmu3FiMfldLNrp6SK6mqbO1Ov-yOja1U&usqp=CAU" alt="">
+      <h3>Biryani</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹150</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Order</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-15">
+      <i class="fas fa-times"></i>
+      <img src="https://www.indianfoodforever.com/iffwd/wp-content/uploads/2019/10/aloo-bhaji.jpg" alt="">
+      <h3>Puri Bhaji</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
+      <div class="price">₹100</div>
+      <div class="buttons">
+         <a href="buy.html" class="buy">Order</a>
+         <a href="add_cart.html" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   
+
+</div>
+
+
+
+
+
+
+

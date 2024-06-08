@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url(https://www.abacarestaurant.com/images/holiday2013_front.jpg) no-repeat;
+	background-size: cover;
+	/* align-items: center; */
+	/* justify-content: center; */
+	/* display: flex; */
+	font-family: sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 300px;
+}
+button{
+    align-items: center;
+    height: 50px;
+    width: 120px;
+    /* margin-left: 500px; */
+    margin-top: 350px;
+    /* padding: 10px; */
+    /* padding: 100px; */
+    margin: 10px;
+    background-color: brown;
+    border-radius: 10px;
+}
+.admin{
+    margin-left: 610px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+button:hover{
+    background-color: rgb(155, 138, 138);
+}

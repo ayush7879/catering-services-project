@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/CSS/my_profile.css" />
+    <title>Profile Dropdown</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="https://png.pngtree.com/png-vector/20210329/ourlarge/pngtree-catering-logo-png-image_3140404.jpg" class="navbar-logo" alt="logo" height="70px"/>
+      <ul class="navbar-list">
+        <li><a href="../User/home.html">Home</a></li>
+        <li><a href="/User/about.html">About</a></li>
+        <li><a href="../User/view_products.html">View Products</a></li>
+        <li><a href="../User/catering.html">Catering</a></li>
+        <!-- <li><a href="#">Community</a></li> -->
+        <li><a href="../User/my_orders.html">History</a></li>
+      </ul>
+
+      <div class="profile-dropdown">
+        <div onclick="toggle()" class="profile-dropdown-btn">
+          <div class="profile-img">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+
+          <span
+            >Victoria
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+
+        <ul class="profile-dropdown-list">
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-regular fa-user"></i>
+              Add Profile
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-regular fa-envelope"></i>
+              Edit Profile
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-sliders"></i>
+              Settings
+            </a>
+          </li>
+
+          <hr />
+
+          <li class="profile-dropdown-list-item">
+            <a href="login.html">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              Log out
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <script src="/JS/my_profile.js"></script>
+  </body>
+</html>
